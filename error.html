@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./error page/style.css">
+  <title>SHAW</title>
+  <meta name="shaw" content="notes">
+	<meta name="bca" content="notes and all learning documents and tools.">
+
+	<meta name="keywords" content="cv,blogger,notes,bca notes,1st sem,2nd sem,seo,3rd sem,download,3rd year,english notes,
+	cv making,shoping,latest deals">
+
+
+</head>
+
+<!-- Background Audio -->
+
+<audio autoplay="" hidden="" loop="">
+	<source src="main/bg.mp3" type="audio/mpeg">
+	If you're reading this, audio isn't supported.
+</audio>
+
+<body>
+
+  <!-- react to rightclick -->
+  
+  <script language=JavaScript>
+    var message = "Function Disabled!";
+
+    function clickIE4() {
+      if (event.button == 2) {
+        alert(message);
+        return false;
+      }
+    }
+
+    function clickNS4(e) {
+      if (document.layers || document.getElementById && !document.all) {
+        if (e.which == 2 || e.which == 3) {
+          alert(message);
+          return false;
+        }
+      }
+    }
+
+    if (document.layers) {
+      document.captureEvents(Event.MOUSEDOWN);
+      document.onmousedown = clickNS4;
+    } else if (document.all && !document.getElementById) {
+      document.onmousedown = clickIE4;
+    }
+
+    document.oncontextmenu = new Function("alert(message);return false")
+  </script>
+
+  
+  <section class="page_404">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 ">
+          <div class="col-sm-10 col-sm-offset-1  text-center">
+            <div class="four_zero_four_bg">
+              <h1 class="text-center ">404</h1>
+
+
+            </div>
+
+            <div class="contant_box_404">
+              <h3 class="h2">
+                Look like you're lost
+              </h3>
+
+              <p>It looks like one of the developers fell asleep</p>
+
+              <a href="index.html" class="link_404">Go to Home</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- <script src="./error page/style.css"></script> -->
+
+</body>
+
+</html>
