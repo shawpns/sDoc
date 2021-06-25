@@ -28,9 +28,9 @@ const CARDS = [{
     link: "https://drive.google.com/file/d/1dxFD8AOGJRZuIh8nNNUTeRGvf3S-U4sI/preview",
   },
   {
-    name: "Comming Soon",
-    icon: "ri-github-fill",
-    link: "https://github.com/",
+    name: "DBMS",
+    icon: "ri-ball-pen-fill",
+    link: "https://drive.google.com/file/d/1FHMKR_m-jnd9y3GvtacHLRvXkWuYUg0u/preview",
   },
   {
     name: "Comming Soon",
