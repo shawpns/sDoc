@@ -30,12 +30,12 @@ const CARDS = [{
   {
     name: "DBMS",
     icon: "ri-ball-pen-fill",
-    link: "https://drive.google.com/file/d/1FHMKR_m-jnd9y3GvtacHLRvXkWuYUg0u/preview",
+    link: "https://drive.google.com/file/d/1gSQEEuKT0cc5ofHEUS8-it2ZNvfHaeMn/preview",
   },
   {
-    name: "Comming Soon",
-    icon: "ri-brush-fill",
-    link: "https://www.figma.com/",
+    name: "IF-Rudyard Kipling",
+    icon: "ri-ball-pen-fill",
+    link: "https://drive.google.com/file/d/1a5Qf-1n7HMiOiIwyifzUdWFEjXQKRqn-/preview",
   },
   {
     name: "YouTube",
